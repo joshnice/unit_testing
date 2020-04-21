@@ -1,0 +1,35 @@
+[0414/182448.705:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0414/182448.706:ERROR:exception_snapshot_win.cc(98)] thread ID 864 not found in process
+[0414/182448.707:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0420/155309.760:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff6252b01d0 of 40 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.760:WARNING:pe_image_reader.cc(392)] could not read section 2 from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0420/155309.761:ERROR:process_memory_win.cc(73)] ReadMemory at 0x26a61b137e0 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.761:WARNING:pe_image_annotations_reader.cc(134)] could not read annotations list object in C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.113\chrome_elf.dll
+[0420/155309.761:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffe9a5d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.761:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.113\chrome.dll
+[0420/155309.761:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffee2330000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.761:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffeedb20000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffeec130000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffef9300000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffefb900000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff008d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff03390000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff069e0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\cfgmgr32.dll
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff02ca0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\PROPSYS.dll
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff065f0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\SSPICLI.DLL
+[0420/155309.762:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff06140000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.762:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[0420/155309.770:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff6252b0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.770:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0420/155309.770:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fff09840000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0420/155309.770:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll

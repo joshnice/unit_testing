@@ -1,0 +1,28 @@
+<div id="container">
+
+    <h2>Products</h2>
+
+    <section class="product-conatiner" *ngFor="let prod of products">
+        <mat-checkbox class="checkbox" (change)="productChange($event, prod)">{{prod.name}}</mat-checkbox>
+    </section>
+
+    <h2>Current Basket</h2>
+
+    <div id="basket-container">
+        <div id="basket" *ngFor="let item of basket">{{item}}</div>
+    </div>
+
+    <div id="basket-empty" *ngIf="checkBasketLength()">No items in basket</div>
+
+
+    <h2>Price</h2>
+    {{price_total}}
+
+    <h2>Discount</h2>
+    <button mat-raised-button id="discount-button" (click)="getDiscount()">APPLY DISCOUNT</button>
+    <div *ngIf="discount !== undefined" id="discount-amount">Discount amount: {{discount.value}}</div>
+    <div *ngIf="discount !== undefined" id="new-price">New Price: {{discount_price}}</div>
+
+
+</div>
+

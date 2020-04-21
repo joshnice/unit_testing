@@ -1,0 +1,7 @@
+<p>user works!</p>
+<div *ngIf="user_logged_in">User logged in {{username}}</div>
+<div *ngIf="!user_logged_in">Please login</div>
+<button id="login" (click)="login()">LOGIN</button>
+
+<button id="calculate" (click)="calculateSum(10)">CALCULATE</button>
+<div id="display-answer">{{calc_answer}}</div>
